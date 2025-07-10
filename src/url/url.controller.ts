@@ -24,7 +24,7 @@ export class UrlController {
     const data = await this.urlService.createShortUrl(dto);
     return {
       originalUrl: data.originalUrl,
-      shortUrl: `http://localhost:3000/r/${data.shortCode}`,
+      shortUrl: `https://marko-79lx.onrender.com/r/${data.shortCode}`,
     };
   }
 
