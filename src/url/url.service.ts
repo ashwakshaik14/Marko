@@ -44,7 +44,7 @@ export class UrlService {
 
     return {
       originalUrl: url.originalUrl,
-      shortUrl: `http://localhost:3000/r/${url.shortCode}`,
+      shortUrl: `https://marko-79lx.onrender.com/r/${url.shortCode}`,
       clicks: url.clicks,
     };
   }
